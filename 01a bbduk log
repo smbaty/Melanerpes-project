@@ -1,0 +1,163 @@
+java -ea -Xmx58613m -Xms58613m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1270_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1270_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1270_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1270_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.201 seconds.
+Initial:
+Memory: max=58900m, total=58900m, free=57056m, used=1844m
+
+Added 255888 kmers; time: 	0.541 seconds.
+Memory: max=58900m, total=58900m, free=53368m, used=5532m
+
+Input is being processed as paired
+Started output streams:	0.555 seconds.
+Processing time:   		315.613 seconds.
+
+Input:                  	119416794 reads 		11841567002 bases.
+QTrimmed:               	22249 reads (0.02%) 	360756 bases (0.00%)
+Polymer-trimmed:        	1251623 reads (1.05%) 	12353300 bases (0.10%)
+KTrimmed:               	13323562 reads (11.16%) 	100259483 bases (0.85%)
+Trimmed by overlap:     	3904721 reads (3.27%) 	134498178 bases (1.14%)
+Total Removed:          	1879684 reads (1.57%) 	361165525 bases (3.05%)
+Result:                 	117537110 reads (98.43%) 	11480401477 bases (96.95%)
+
+Time:                         	316.713 seconds.
+Reads Processed:        119m 	377.05k reads/sec
+Bases Processed:      11841m 	37.39m bases/sec
+java -ea -Xmx50045m -Xms50045m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1274_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1274_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1274_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1274_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.027 seconds.
+Initial:
+Memory: max=50290m, total=50290m, free=48453m, used=1837m
+
+Added 255888 kmers; time: 	0.134 seconds.
+Memory: max=50290m, total=50290m, free=46092m, used=4198m
+
+Input is being processed as paired
+Started output streams:	0.225 seconds.
+Processing time:   		281.935 seconds.
+
+Input:                  	80485044 reads 		8030784605 bases.
+QTrimmed:               	15146 reads (0.02%) 	235608 bases (0.00%)
+Polymer-trimmed:        	814847 reads (1.01%) 	12623827 bases (0.16%)
+KTrimmed:               	8947367 reads (11.12%) 	67226248 bases (0.84%)
+Trimmed by overlap:     	2460809 reads (3.06%) 	85579297 bases (1.07%)
+Total Removed:          	401952 reads (0.50%) 	182627880 bases (2.27%)
+Result:                 	80083092 reads (99.50%) 	7848156725 bases (97.73%)
+
+Time:                         	282.297 seconds.
+Reads Processed:      80485k 	285.11k reads/sec
+Bases Processed:       8030m 	28.45m bases/sec
+java -ea -Xmx50117m -Xms50117m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1275_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1275_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1275_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_G_LHD1275_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.032 seconds.
+Initial:
+Memory: max=50363m, total=50363m, free=48523m, used=1840m
+
+Added 255888 kmers; time: 	0.229 seconds.
+Memory: max=50363m, total=50363m, free=46421m, used=3942m
+
+Input is being processed as paired
+Started output streams:	0.255 seconds.
+Processing time:   		159.885 seconds.
+
+Input:                  	44648572 reads 		4465234171 bases.
+QTrimmed:               	8137 reads (0.02%) 	126391 bases (0.00%)
+Polymer-trimmed:        	535200 reads (1.20%) 	12399380 bases (0.28%)
+KTrimmed:               	4962396 reads (11.11%) 	37220697 bases (0.83%)
+Trimmed by overlap:     	1614140 reads (3.62%) 	55129445 bases (1.23%)
+Total Removed:          	212202 reads (0.48%) 	110857246 bases (2.48%)
+Result:                 	44436370 reads (99.52%) 	4354376925 bases (97.52%)
+
+Time:                         	160.373 seconds.
+Reads Processed:      44648k 	278.40k reads/sec
+Bases Processed:       4465m 	27.84m bases/sec
+java -ea -Xmx49511m -Xms49511m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1270_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1270_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1270_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1270_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.025 seconds.
+Initial:
+Memory: max=49753m, total=49753m, free=47936m, used=1817m
+
+Added 255888 kmers; time: 	0.147 seconds.
+Memory: max=49753m, total=49753m, free=45860m, used=3893m
+
+Input is being processed as paired
+Started output streams:	0.284 seconds.
+Processing time:   		389.482 seconds.
+
+Input:                  	114648150 reads 		11378548590 bases.
+QTrimmed:               	21046 reads (0.02%) 	337188 bases (0.00%)
+Polymer-trimmed:        	2050718 reads (1.79%) 	31375060 bases (0.28%)
+KTrimmed:               	11786187 reads (10.28%) 	89271448 bases (0.78%)
+Trimmed by overlap:     	1222191 reads (1.07%) 	41564988 bases (0.37%)
+Total Removed:          	1809914 reads (1.58%) 	267295375 bases (2.35%)
+Result:                 	112838236 reads (98.42%) 	11111253215 bases (97.65%)
+
+Time:                         	389.916 seconds.
+Reads Processed:        114m 	294.03k reads/sec
+Bases Processed:      11378m 	29.18m bases/sec
+java -ea -Xmx50221m -Xms50221m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1274_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1274_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1274_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1274_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.026 seconds.
+Initial:
+Memory: max=50467m, total=50467m, free=48624m, used=1843m
+
+Added 255888 kmers; time: 	0.233 seconds.
+Memory: max=50467m, total=50467m, free=45991m, used=4476m
+
+Input is being processed as paired
+Started output streams:	0.224 seconds.
+Processing time:   		219.208 seconds.
+
+Input:                  	62433694 reads 		6195163429 bases.
+QTrimmed:               	11507 reads (0.02%) 	184123 bases (0.00%)
+Polymer-trimmed:        	854787 reads (1.37%) 	12621422 bases (0.20%)
+KTrimmed:               	6829060 reads (10.94%) 	51598118 bases (0.83%)
+Trimmed by overlap:     	1355344 reads (2.17%) 	46461299 bases (0.75%)
+Total Removed:          	530918 reads (0.85%) 	137911805 bases (2.23%)
+Result:                 	61902776 reads (99.15%) 	6057251624 bases (97.77%)
+
+Time:                         	219.669 seconds.
+Reads Processed:      62433k 	284.22k reads/sec
+Bases Processed:       6195m 	28.20m bases/sec
+java -ea -Xmx53094m -Xms53094m -cp /lustre/scratch/sabaty/bbmap/current/ jgi.BBDuk in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1275_R1.fastq.gz in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1275_R2.fastq.gz out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa hdist=1 tbo tpe
+Executing jgi.BBDuk [in1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1275_R1.fastq.gz, in2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_raw_data/M_carolinus_L_LHD1275_R2.fastq.gz, out1=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz, out2=/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz, minlen=40, qtrim=rl, trimq=10, ktrim=r, k=25, mink=7, trimpolya=5, ref=/lustre/scratch/sabaty/bbmap/resources/adapters.fa, hdist=1, tbo, tpe]
+Version 38.35
+
+maskMiddle was disabled because useShortKmers=true
+0.020 seconds.
+Initial:
+Memory: max=53353m, total=53353m, free=51683m, used=1670m
+
+Added 255888 kmers; time: 	0.095 seconds.
+Memory: max=53353m, total=53353m, free=49456m, used=3897m
+
+Input is being processed as paired
+Started output streams:	0.192 seconds.
+Processing time:   		204.801 seconds.
+
+Input:                  	75951076 reads 		7579993249 bases.
+QTrimmed:               	14035 reads (0.02%) 	218996 bases (0.00%)
+Polymer-trimmed:        	760489 reads (1.00%) 	8989926 bases (0.12%)
+KTrimmed:               	8394636 reads (11.05%) 	63011502 bases (0.83%)
+Trimmed by overlap:     	2395318 reads (3.15%) 	82504210 bases (1.09%)
+Total Removed:          	559662 reads (0.74%) 	185277811 bases (2.44%)
+Result:                 	75391414 reads (99.26%) 	7394715438 bases (97.56%)
+
+Time:                         	205.092 seconds.
+Reads Processed:      75951k 	370.33k reads/sec
+Bases Processed:       7579m 	36.96m bases/sec
+
