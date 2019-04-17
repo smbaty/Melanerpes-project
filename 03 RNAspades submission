@@ -1,6 +1,20 @@
 #spades submission
 #first submission returned error with 180 GB so changed RAM to 185
 
+
+#!/bin/sh
+#$ -V
+#$ -cwd
+#$ -S /bin/bash
+#$ -N spades-test-01
+#$ -o $JOB_NAME.o$JOB_ID
+#$ -e $JOB_NAME.e$JOB_ID
+#$ -q omni
+#$ -pe sm 24
+#$ -P quanah
+#$ -l h_rt=48:00:00
+#$ -l h_vmem=8G
+
 spades.py --rna --pe1-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R1.fastq.gz --pe1-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R2.fastq.gz --pe2-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R1.fastq.gz \
 --pe2-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R2.fastq.gz --pe3-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R1.fastq.gz --pe3-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R2.fastq.gz \
 --pe4-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz --pe4-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz --pe5-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz \
