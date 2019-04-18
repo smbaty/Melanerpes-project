@@ -1,5 +1,6 @@
-#spades submission
-#first submission returned error with 180 GB so changed RAM to 185
+#RNAspades submission
+#first submission returned error with 180GB, so changed RAM to 185
+#update: second 185GB submission returned another memory error, so split G and L files to decrease memory
 
 
 #!/bin/sh
