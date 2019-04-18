@@ -2,7 +2,7 @@
 #submitted on xlquanah
 
 
-#gonads
+#gonads below
 
 #!/bin/sh
 #$ -V
@@ -25,7 +25,7 @@ Trinity --seqType fq --max_memory 180G \
 
 
 
-#liver
+#liver below
 
 #!/bin/sh
 #$ -V
