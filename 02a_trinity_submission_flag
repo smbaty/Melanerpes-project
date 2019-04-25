@@ -1,4 +1,5 @@
 #second trinity submission with the "SS_lib_type RF" flag added on
+# ran out of time, extended to xl quanah
 
 #!/bin/sh
 #$ -V
