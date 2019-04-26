@@ -1,4 +1,5 @@
 # see liver run below
+# 4-25-19 run failed, need more memory
 
 #!/bin/sh
 #$ -V
@@ -13,6 +14,11 @@
 #$ -l h_rt=120:00:00
 #$ -l h_vmem=8G
 
-spades.py --rna --pe1-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz --pe1-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz --pe2-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz \
---pe2-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz --pe3-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz --pe3-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz \
+spades.py --rna \
+--pe1-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz \
+--pe1-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz \
+--pe2-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz \
+--pe2-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz \
+--pe3-1 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz \
+--pe3-2 /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz \
 -o /lustre/scratch/sabaty/melanerpes-project/separated-spades-liver --phred-offset 33 -t 24 -m 185
