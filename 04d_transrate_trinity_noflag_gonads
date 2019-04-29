@@ -1,3 +1,5 @@
+# transrate trinity no flag for gonads
+
 #!/bin/sh
 #$ -V
 #$ -cwd
