@@ -2,9 +2,17 @@
 
 
 transrate --assembly /lustre/scratch/sabaty/melanerpes-project/assemblies/full-trinity-flag/Trinity.fasta \
---left /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R1.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R1.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R1.fastq.gz, \
-/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz \
---right /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R2.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R2.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R2.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz, \
-/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz,/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz \
+--left /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R1.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R1.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R1.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R1.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R1.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R1.fastq.gz \
+--right /lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1270_R2.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1274_R2.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_G_LHD1275_R2.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1270_R2.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1274_R2.fastq.gz, \
+/lustre/scratch/sabaty/melanerpes-project/transcriptomes/01_filtered_data/M_carolinus_L_LHD1275_R2.fastq.gz \
  --output /lustre/scratch/sabaty/melanerpes-project/assemblies/full_trinity_flag/full-trinity-flag-transrate/ \
  --threads 32
