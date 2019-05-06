@@ -3,11 +3,5 @@
 TransDecoder.Predict -t /lustre/scratch/sabaty/melanerpes-project/assemblies/full-trinity-flag/Trinity.fasta
 
 
-#make sure following are all executable:
+#make sure .pl files in /util are executable and under /Perlib, make sure Pipeliner.pm is executable
 
- TransDecoder.Predict
- get_top_longest_fasta_entries.pl
- exclude_similar_proteins.pl
- seq_n_baseprobs_to_loglikelihood_vals.pl
- score_CDS_likelihood_all_6_frames.pl
- select_best_ORFs_per_transcript.pl
