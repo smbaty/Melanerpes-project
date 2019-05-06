@@ -10,3 +10,4 @@ TransDecoder.Predict -t /lustre/scratch/sabaty/melanerpes-project/assemblies/ful
  exclude_similar_proteins.pl
  seq_n_baseprobs_to_loglikelihood_vals.pl
  score_CDS_likelihood_all_6_frames.pl
+ select_best_ORFs_per_transcript.pl
