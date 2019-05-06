@@ -1,0 +1,19 @@
+#when trying transdecoder long orfs with following usage:
+
+~/Transdecoder-Transdecoder-v5.5.0 TransDecoder.LongOrfs -t /lustre/scratch/sabaty/melanerpes-project/assemblies/full-trinity-flag/Trinity.fasta
+
+
+#received error: "Can't locate URI/Escape.pm in @INC"
+#need to install URI Escape so to do this you can do:
+
+perl -MCPAN -e shell 
+
+
+#and then follow the installation steps and once that finishes, do
+
+install URI::Escape
+
+
+#after that is finished, I had to make sure compute_base_probs.pl under TransDecoder-TransDecoder-v/util was executable.
+
+chmod +x compute_base_probs.pl
