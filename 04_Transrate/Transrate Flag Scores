@@ -1,0 +1,54 @@
+#below is output for transrate score for trinity with extra flag
+
+Calculating contig metrics...
+[ INFO] 2019-05-17 10:14:05 : Contig metrics:
+[ INFO] 2019-05-17 10:14:05 : -----------------------------------
+[ INFO] 2019-05-17 10:14:05 : n seqs                      2988426
+[ INFO] 2019-05-17 10:14:05 : smallest                        201
+[ INFO] 2019-05-17 10:14:05 : largest                       15312
+[ INFO] 2019-05-17 10:14:05 : n bases                  1239544139
+[ INFO] 2019-05-17 10:14:05 : mean len                     414.78
+[ INFO] 2019-05-17 10:14:05 : n under 200                       0
+[ INFO] 2019-05-17 10:14:05 : n over 1k                    118994
+[ INFO] 2019-05-17 10:14:05 : n over 10k                       38
+[ INFO] 2019-05-17 10:14:05 : n with orf                   109161
+[ INFO] 2019-05-17 10:14:05 : mean orf percent              48.55
+[ INFO] 2019-05-17 10:14:05 : n90                             235
+[ INFO] 2019-05-17 10:14:05 : n70                             317
+[ INFO] 2019-05-17 10:14:05 : n50                             438
+[ INFO] 2019-05-17 10:14:05 : n30                             648
+[ INFO] 2019-05-17 10:14:05 : n10                            1229
+[ INFO] 2019-05-17 10:14:05 : gc                             0.46
+[ INFO] 2019-05-17 10:14:05 : bases n                           0
+[ INFO] 2019-05-17 10:14:05 : proportion n                    0.0
+[ INFO] 2019-05-17 10:14:05 : Contig metrics done in 1689 seconds
+[ INFO] 2019-05-17 10:14:05 : Calculating read diagnostics...
+[ INFO] 2019-05-17 15:26:49 : Read mapping metrics:
+[ INFO] 2019-05-17 15:26:49 : -----------------------------------
+[ INFO] 2019-05-17 15:26:49 : fragments                  58768555
+[ INFO] 2019-05-17 15:26:49 : fragments mapped           10351109
+[ INFO] 2019-05-17 15:26:49 : p fragments mapped             0.18
+[ INFO] 2019-05-17 15:26:49 : good mappings               7845413
+[ INFO] 2019-05-17 15:26:49 : p good mapping                 0.13
+[ INFO] 2019-05-17 15:26:49 : bad mappings                2505696
+[ INFO] 2019-05-17 15:26:49 : potential bridges                 0
+[ INFO] 2019-05-17 15:26:49 : bases uncovered           779027207
+[ INFO] 2019-05-17 15:26:49 : p bases uncovered              0.63
+[ INFO] 2019-05-17 15:26:49 : contigs uncovbase           2951313
+[ INFO] 2019-05-17 15:26:49 : p contigs uncovbase            0.99
+[ INFO] 2019-05-17 15:26:49 : contigs uncovered           2988426
+[ INFO] 2019-05-17 15:26:49 : p contigs uncovered             1.0
+[ INFO] 2019-05-17 15:26:49 : contigs lowcovered          2988426
+[ INFO] 2019-05-17 15:26:49 : p contigs lowcovered            1.0
+[ INFO] 2019-05-17 15:26:49 : contigs segmented            141023
+[ INFO] 2019-05-17 15:26:49 : p contigs segmented            0.05
+[ INFO] 2019-05-17 15:26:49 : Read metrics done in 18764 seconds
+[ INFO] 2019-05-17 15:26:49 : No reference provided, skipping comparative diagnostics
+[ INFO] 2019-05-17 15:38:38 : TRANSRATE ASSEMBLY SCORE     0.0058
+[ INFO] 2019-05-17 15:38:38 : -----------------------------------
+[ INFO] 2019-05-17 15:38:38 : TRANSRATE OPTIMAL SCORE      0.0521
+[ INFO] 2019-05-17 15:38:38 : TRANSRATE OPTIMAL CUTOFF     0.2763
+[ INFO] 2019-05-17 15:38:42 : good contigs                 913630
+[ INFO] 2019-05-17 15:38:42 : p good contigs                 0.31
+[ INFO] 2019-05-17 15:38:42 : Writing contig metrics for each contig to /lustre/scratch/sabaty/melanerpes-project/assemblies/full_trinity_flag/full-trinity-flag-transrate/Trinity/contigs.csv
+[ INFO] 2019-05-17 15:56:41 : Writing analysis results to assemblies.csv
